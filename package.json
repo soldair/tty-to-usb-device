@@ -1,0 +1,17 @@
+{
+  "name": "tty-to-usb-device",
+  "description": "find out the usb device path for a usb serial tty ex (/dev/ttyACM0)",
+  "version": "0.0.1",
+  "repository": {
+    "url": "git://github.com/soldair/tty-to-usb-device.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "author":"Ryan Day",
+  "dependencies": {},
+  "devDependencies": {
+    "tape": "~2.3.2"
+  }
+}
