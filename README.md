@@ -22,7 +22,7 @@ false '/dev/bus/usb/002/017' { link: '/sys/devices/pci0000:00/0000:00:1d.0/usb2/
   usbDevice: '/sys/devices/pci0000:00/0000:00:1d.0/usb2/2-1/2-1.4',
   uevent: 'MAJOR=189\nMINOR=144\nDEVNAME=bus/usb/002/017\nDEVTYPE=usb_device\nDRIVER=usb\nPRODUCT=1d50/6051/1\nTYPE=2/0/0\nBUSNUM=002\nDEVNUM=017',
   product: 'Pinoccio',
-  undefined: 'Pinoccio',
+  manufacturer: 'Pinoccio',
   serial: '9533534303635191C0C1',
   idVendor: '1d50',
   version: '1.10',

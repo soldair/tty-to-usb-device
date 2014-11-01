@@ -37,7 +37,7 @@ module.exports = function(tty,cb){
       var files = [
         [path.join(usbDevicePath,'uevent'),"uevent"]
         ,[path.join(usbDevicePath,'product'),"product"]
-        ,[path.join(usbDevicePath,'manufacturer')]
+        ,[path.join(usbDevicePath,'manufacturer'),"manufacturer"]
         ,[path.join(usbDevicePath,'serial'),'serial']
         ,[path.join(usbDevicePath,'idVendor'),'idVendor']
         ,[path.join(usbDevicePath,'idProduct'),'idProduct'] 
